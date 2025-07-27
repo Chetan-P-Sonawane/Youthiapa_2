@@ -1,0 +1,29 @@
+.nametitle{
+    color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 0%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+
+    h1{
+        -webkit-text-stroke: 1px white;
+        font-weight: 400;
+        line-height: 0;
+        user-select: none;
+    }
+}
+
+@keyframes animatetext {
+    0%{
+        font-family: "dmsans";
+    }
+    50%{
+        font-family: "dmsans-i";
+    }100%{
+        font-family: "dmsans";
+    }
+}

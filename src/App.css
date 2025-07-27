@@ -1,0 +1,17 @@
+@import "./Components/Header/Nav.css";
+@import "./Components/Loader/Loader.css";
+@import "./Pages/CSS/Home.css";
+
+@font-face {
+    font-family: "dmsans";
+    src: url(./assets/fonts/dmsans.woff2);
+}
+
+@font-face {
+    font-family: "dmsans-i";
+    src: url(./assets/fonts/dmsans_i4.woff2);
+}
+
+*{
+    font-family: "dmsans";
+}

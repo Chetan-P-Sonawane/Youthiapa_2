@@ -1,0 +1,15 @@
+[
+  { "id": 1, "name": "Oversized Tee", "category": "tshirt", "price": 499, "image": "https://youthiapa.com/cdn/shop/files/10_fa91bb15-3fd1-47b6-be6f-5225e33d30f6.jpg?v=1749379522&width=720" },
+  { "id": 2, "name": "Rugged Denim Cargo", "category": "pants", "price": 999, "image": "https://youthiapa.com/cdn/shop/files/7_c38ebede-967c-406d-b8a4-c9a4a2a30038.jpg?v=1749399678&width=720" },
+  { "id": 3, "name": "VTG Cargo", "category": "pants", "price": 899, "image": "https://youthiapa.com/cdn/shop/files/7_1.jpg?v=1749401298&width=720" },
+  { "id": 4, "name": "", "category":"tshirt", "price": 1400, "image": "https://youthiapa.com/cdn/shop/files/C5CF2A3E-A399-425A-B0CB-59A33ACED6B3.png?v=1751310591&width=660"},
+  { "id": 5, "name": "Oversized Tee", "category": "tshirt", "price": 499, "image": "https://youthiapa.com/cdn/shop/files/10_fa91bb15-3fd1-47b6-be6f-5225e33d30f6.jpg?v=1749379522&width=720" },
+  { "id": 6, "name": "Rugged Denim Cargo", "category": "pants", "price": 999, "image": "https://youthiapa.com/cdn/shop/files/7_c38ebede-967c-406d-b8a4-c9a4a2a30038.jpg?v=1749399678&width=720" },
+  { "id": 7, "name": "VTG Cargo", "category": "pants", "price": 899, "image": "https://youthiapa.com/cdn/shop/files/7_1.jpg?v=1749401298&width=720" },
+  { "id": 8, "name": "", "category":"tshirt", "price": 1400, "image": "https://youthiapa.com/cdn/shop/files/C5CF2A3E-A399-425A-B0CB-59A33ACED6B3.png?v=1751310591&width=660"},
+  { "id": 9, "name": "Oversized Tee", "category": "tshirt", "price": 499, "image": "https://youthiapa.com/cdn/shop/files/10_fa91bb15-3fd1-47b6-be6f-5225e33d30f6.jpg?v=1749379522&width=720" },
+  { "id": 10, "name": "Rugged Denim Cargo", "category": "pants", "price": 999, "image": "https://youthiapa.com/cdn/shop/files/7_c38ebede-967c-406d-b8a4-c9a4a2a30038.jpg?v=1749399678&width=720" },
+  { "id": 11, "name": "VTG Cargo", "category": "pants", "price": 899, "image": "https://youthiapa.com/cdn/shop/files/7_1.jpg?v=1749401298&width=720" },
+  { "id": 12, "name": "", "category":"tshirt", "price": 1400, "image": "https://youthiapa.com/cdn/shop/files/C5CF2A3E-A399-425A-B0CB-59A33ACED6B3.png?v=1751310591&width=660"}
+
+]
