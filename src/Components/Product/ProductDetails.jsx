@@ -1,5 +1,6 @@
 import { useParams } from "react-router-dom";
 import { useSelector } from "react-redux";
+import PageTransition from "../PageTransition/PageTransition";
 
 const ProductDetail = () => {
     const { id } = useParams();
@@ -11,6 +12,7 @@ const ProductDetail = () => {
     }
 
     return (
+    <PageTransition>
         <div className="h-[100vh] flex items-center justify-center p-4 md:p-8 max-w-4xl mx-auto">
             <div className="flex flex-col md:flex-row gap-6 bg-white shadow-xl rounded-2xl overflow-hidden">
                 <div className="md:w-1/2 bg-gray-100 p-4">
@@ -40,6 +42,7 @@ const ProductDetail = () => {
                 </div>
             </div>
         </div>
+    </PageTransition>
     );
 };
 

@@ -64,7 +64,9 @@ const Nav = ({ setNextNav, nextNav }) => {
                 </div>
                 <div className=' w-[30%] lg:w-fit  flex items-center justify-center sm:justify-start self-center '>
                     <Mag>
-                    <img className='w-28' src="https://youthiapa.com/cdn/shop/files/Logo_430x_2cbbc556-17f8-4298-977c-8fb9c9754d18.png?v=1747313802&width=165" alt="" />
+                    <NavLink onClick={() => handleNavigate("/")}>
+                        <img className='w-28' src="https://youthiapa.com/cdn/shop/files/Logo_430x_2cbbc556-17f8-4298-977c-8fb9c9754d18.png?v=1747313802&width=165" alt="" />
+                    </NavLink>
                     </Mag>
                 </div>
 

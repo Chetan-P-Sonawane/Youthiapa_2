@@ -7,11 +7,14 @@ import Loader from "./Components/Loader/Loader"
 import LenisSetup from "./Components/Lenis"
 import Footer from "./Components/Footer/Footer"
 import { ToastContainer, Bounce } from 'react-toastify'
+import { useDispatch } from "react-redux"
+import { setProducts} from "./store/productSlice";
+
 
 function App() {
 
   const [nextNav, setNextNav] = useState(sessionStorage.getItem("nextNav") || "/");
-
+  const dispatch = useDispatch();
 
   const lenisRef = useRef(null);
 
@@ -22,6 +25,13 @@ function App() {
       lenisRef.current?.destroy?.();
     };
   }, []);
+
+  useEffect(() => {
+    fetch("/data.json")
+      .then((res) => res.json())
+      .then((data) => dispatch(setProducts(data)))
+      .catch((err) => console.error("Failed to load product data:", err));
+  }, [dispatch]);
 
   return (
     <Router>

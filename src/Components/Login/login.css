@@ -1,0 +1,27 @@
+.logincard{
+        background-color: transparent;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    background-image: linear-gradient(
+        120deg,
+        rgba(76, 76, 76, 0.3),
+        rgba(85, 85, 85, 0.173)
+    );
+}
+
+.login-marquee1{
+    animation: loginmarquee 40s linear infinite reverse;
+}
+
+.login-marquee2{
+     animation: loginmarquee 40s linear infinite;
+}
+
+@keyframes loginmarquee {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}

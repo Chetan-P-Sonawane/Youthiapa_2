@@ -2,6 +2,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { logoutUser } from "../../store/userSlice";
 import { useNavigate } from "react-router-dom";
 import Zoop from "../WrapperAndComponents/Zoop";
+import PageTransition from "../PageTransition/PageTransition";
 
 const Profile = () => {
     const user = useSelector((state) => state.user);
@@ -14,6 +15,7 @@ const Profile = () => {
     };
 
     return (
+    <PageTransition>
         <div className="min-h-[80vh] flex items-center justify-center bg-gradient-to-br bg-white px-4">
             <div className="bg-black text-white shadow-2xl rounded-3xl p-8 max-w-[400px] w-full text-center space-y-6">
                 <h2 className="text-3xl font-bold text-white">User Profile</h2>
@@ -37,6 +39,7 @@ const Profile = () => {
                 </button>
             </div>
         </div>
+    </PageTransition>
     );
 };
 
