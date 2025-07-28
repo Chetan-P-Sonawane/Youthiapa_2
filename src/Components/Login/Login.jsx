@@ -27,7 +27,7 @@ const Login = () => {
 
             if (matched) {
                 dispatch(loginUser({ username: matched.username, password: matched.password }));
-                navigate("/products");
+                navigate("/profile");
             } else {
                 setError("Invalid credentials. Please try again.");
             }
